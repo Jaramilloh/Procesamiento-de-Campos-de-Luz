@@ -24,7 +24,7 @@ A partir del siguiente campo de luz (capturado por una cámara plenóptica afoca
 
 ![Campo de luz HR](Extraccion_imgs_sub_apertura/LF_dartthvader_proc.png)
 
-**Vista central del campo de luz capturado (*Imagen propia*)**
+**Vista central del campo de luz capturado, 220 x 176 (*Imagen propia*)**
 
 ![vista central - Campo de luz HR](Extraccion_imgs_sub_apertura/darthvader_Processed_img11_VistaCentral_Completa1x1.png)
 
@@ -34,15 +34,15 @@ Ya que la imagen anterior tiene una resolución pequeña (de acuerdo a la matriz
 
 ![vista central - Campo de luz HR - interpolada](Extraccion_imgs_sub_apertura/darthvader_Processed_img11_VistaCentral_Completa_interpolada.png)
 
-Los resultados obtenidos anteriormente no fueron los esperados, debido a la estructura de la malla de micro-lentes y la tecnología de la cámara plenóptica con la que se capturó. Por esta razón, los siguientes resultados se obtuvieron de un campo de luz tomado del [Conjunto de datos de Campos de Luz de Stanford](http://lightfield.stanford.edu/lfs.html).
+Los resultados obtenidos anteriormente fueron los esperados, debido a la estructura de la malla de micro-lentes y la tecnología de la cámara plenóptica con la que se capturó. Sin embargo, dada la resolución obtenida, los siguientes resultados se obtuvieron de un campo de luz tomado del [Conjunto de datos de Campos de Luz de Stanford](http://lightfield.stanford.edu/lfs.html).
 
-A continuación, se muestra la secuencia sin discontinuidades obtenida después de implementar una organización de acuerdo al flujo óptico en las dimensiones X y Y entre las imágenes de sub-apertura del campo de luz.
+A continuación, se muestra la secuencia sin discontinuidades obtenida después de implementar una organización de acuerdo al flujo óptico en las dimensiones X y Y entre las imágenes de sub-apertura del campo de luz, implementado en el [algoritmo](Secuencia_sin_discontinuidades/ssd_puntos_ping_pong_Multiprocessing.py).
 
 **Campo de luz organizado en secuencia sin discontinuidades (*Campo de luz tomado de [1]*)**
 
 ![secuencia sin discontinuidades - Campo de luz HR](Secuencia_sin_discontinuidades/video_sin_discontinuidades.gif)
 
-Las imágenes de sub-apertura del  campo de luz anterior son sub-muestreadas espacialmente por un factor K = 4.
+Las imágenes de sub-apertura del campo de luz anterior son sub-muestreadas espacialmente por un factor K = 4, implementando el siguiente [algoritmo](Sub_muestreo/decimacion_espacial.py).
 
 **Imagen de sub-apertura del campo de luz (*Campo de luz tomado de [1]*)**
 
