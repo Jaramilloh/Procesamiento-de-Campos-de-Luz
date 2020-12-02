@@ -33,8 +33,13 @@ A partir del siguiente campo de luz (capturado por una cámara plenóptica afoca
 
 Ya que la imagen anterior tiene una resolución pequeña (de acuerdo a la matriz de micro-lentes de la cámara plenóptica), se realiza una interpolación bicúbica sobre el resultado anterior:
 
-![vista central - Campo de luz HR - interpolada](Extraccion_imgs_sub_apertura/darthvader_Processed_img12_vista_interpolada.png)
+![vista central - Campo de luz HR - interpolada](Extraccion_imgs_sub_apertura/darthvader_Processed_img11_VistaCentral_Completa_interpolada.png)
 
+Los resultados obtenidos anteriormente no fueron los esperados, debido a la estructura de la malla de micro-lentes y la tecnología de la cámara plenóptica con la que se capturó. Por esta razón, los siguientes resultados se obtuvieron de un campo de luz tomado del [Conjunto de datos de Campos de Luz de Stanford](http://lightfield.stanford.edu/lfs.html).
+
+A continuación, se muestra la secuencia sin discontinuidades obtenida después de implementar una organización de acuerdo al flujo óptico en las dimensiones X y Y entre las imágenes de sub-apertura del campo de luz.
+
+![secuencia sin discontinuidades - Campo de luz HR](Secuencia_sin_discontinuidades/video_sin_discontinuidades.gif)
 
 ## Extracción de imágenes de sub-apertura
 
