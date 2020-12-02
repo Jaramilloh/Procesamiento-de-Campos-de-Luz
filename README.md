@@ -11,11 +11,35 @@ Tabla de Contenidos
 =================
 
 <!--ts-->
-   * [Red Neuronal Sub-Muestreadora de Imágenes](#Red-Neuronal-Sub-Muestreadora-de-Imágenes)
-   * [Tabla de Contenidos](#tabla-de-contenidos)
-   * [Resultados Obtenidos](#Resultados-Obtenidos)
-   * [Ejecutar el modelo pre-entrenado](#Ejecutar-el-modelo-pre-entrenado)
-   * [Generación del conjunto de datos](#Generación-del-conjunto-de-datos)
-   * [Entrenar el modelo](#Entrenar-el-modelo)
-   * [Referencias](#Referencias)
+* [Procesamiento de Campos de Luz](#Procesamiento-de-Campos-de-Luz)
+* [Tabla de Contenidos](#tabla-de-contenidos)
+* [Resultados Obtenidos](#Resultados-Obtenidos)
+* [Extracción de imágenes de sub-apertura](#Extraccion-de-imagenes-de-sub-apertura)
+* [Secuencia-sin-discontinuidades](#Secuencia-sin-discontinuidades)
+* [Sub-muestreo espacial y angular](#Sub-muestreo-espacial-y-angular)
+* [Referencias](#Referencias)
 <!--te-->
+
+### Resultados Obtenidos
+A partir del siguiente campo de luz (capturado por una cámara plenóptica afocal de alta resolución) se logró extraer la vista central de todos los micro-lentes. El sensor de imagen consta de 220 x 176 micro-lentes, y una pequeña porción del campo de luz se puede observar a continuación:
+
+**Campo de luz capturado (*Imagen propia*)**
+
+![Campo de luz HR](Extraccion_imgs_sub_apertura/darthvader_Processed_img11_VistaCentral_Completa1x1.png)
+
+
+
+
+
+
+## Extracción de imágenes de sub-apertura
+
+## Secuencia sin discontinuidades
+
+## Sub-muestreo espacial y angular
+
+
+
+### Referencias
+
+[1] Conjunto de datos de Campos de Luz, Universidad de Stanford. Disponible en http://lightfield.stanford.edu/lfs.html
