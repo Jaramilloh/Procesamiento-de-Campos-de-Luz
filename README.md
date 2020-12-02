@@ -25,11 +25,15 @@ A partir del siguiente campo de luz (capturado por una cámara plenóptica afoca
 
 **Campo de luz capturado (*Imagen propia*)**
 
-![Campo de luz HR](Extraccion_imgs_sub_apertura/darthvader_Processed_img11_VistaCentral_Completa1x1.png)
+![Campo de luz HR](Extraccion_imgs_sub_apertura/LF_dartthvader_proc.png)
 
+**Vista central del campo de luz capturado (*Imagen propia*)**
 
+![vista central - Campo de luz HR](Extraccion_imgs_sub_apertura/darthvader_Processed_img11_VistaCentral_Completa1x1.png)
 
+Ya que la imagen anterior tiene una resolución pequeña (de acuerdo a la matriz de micro-lentes de la cámara plenóptica), se realiza una interpolación bicúbica sobre el resultado anterior:
 
+![vista central - Campo de luz HR - interpolada](Extraccion_imgs_sub_apertura/darthvader_Processed_img12_vista_interpolada.png)
 
 
 ## Extracción de imágenes de sub-apertura
