@@ -52,6 +52,18 @@ Las imágenes de sub-apertura del  campo de luz anterior son sub-muestreadas esp
 
 ![Imagen sub-apertura Campo de luz HR](Sub_muestreo/ajedrez_submuestreados/LR_out_04_05_-797.908081_-3330.062744_.png)
 
+Para el sub-muestreo angular, se utilizó el siguiente [algoritmo](Sub_muestreo/creacion_png_campo_de_luz.py) para generar una imagen espacial del campo de luz completo.
+
+**Porción del campo de luz espacialmente completo (*Campo de luz tomado de [1]*)**
+
+![Campo de luz HR completo](Sub_muestreo/Campos_de_luz/ajedrez/campo_de_luz_8x8.png)
+
+La imagen completa anterior se sub-muestreó angularmente con el mismo [algoritmo](Sub_muestreo/decimacion_espacial.py) implementado anteriormente para sub-muestrear espacialmente las imágenes de sub-apertura. Una porción del resultado se muestra anterior:
+
+**Porción del campo de luz sub-muestreado angularmente (*Campo de luz tomado de [1]*)**
+
+![Campo de luz HR sub-muestreado](Sub_muestreo/ajedrez_submuestreados/campo_de_luz_2x2.png)
+
 ### Referencias
 
 [1] Conjunto de datos de Campos de Luz, Universidad de Stanford. Disponible en http://lightfield.stanford.edu/lfs.html
